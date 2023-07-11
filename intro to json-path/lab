@@ -1,0 +1,17 @@
+https://mmumshad.github.io/json-path-quiz/index.html
+
+Answers:
+
+$.property1
+$.bus
+$.bus.price
+$.vehicles.car.price
+$.car.wheels
+$.car.wheels[2]
+$.car.wheels[2].model
+$.employee.payslips
+$.employee.payslips[2]
+$.employee.payslips[2].amount
+$.prizes[5].laureates[1]
+$[0]
+$[0,3]

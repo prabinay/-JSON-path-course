@@ -1,0 +1,56 @@
+The key and value is separated by a colon i.e : in YAML.
+
+Dictionary is an unordered collection whereas list is an ordered collection.
+
+
+Now, update the /home/bob/playbooks/practice.yaml file with a dictionary in dictionary.
+
+Add a dictionary named address to add the address information in this file.
+Update the file as below.
+
+
+employee:
+  name: john
+  gender: male
+  age: 24
+  address:
+    city: edison
+    state: new jersey
+    country: united states
+
+    We have updated the /home/bob/playbooks/practice.yaml file with some data for apple, orange and mango. Just like apple, we would like to add additional details for each item, such as color, weight etc. Modify the remaining items to match the below data.
+
+
+orange
+
+color	weight
+orange	90g
+
+
+mango
+
+color	weight
+yellow	150g
+
+
+Ex 12
+Update the /home/bob/playbooks/practice.yaml file to add an additional employee (below the existing entry) to the list using the below information.
+
+
+Key/Property	Value
+name	sarah
+gender	female
+age	28
+
+
+
+Ex 13
+We have updated the /home/bob/playbooks/practice.yaml file to add some more details. Now add the pay information. Remember, while address is a dictionary, payslips is an array of month and amount.
+
+
+payslips
+
+month	amount
+june	1400
+july	2400
+august	3400

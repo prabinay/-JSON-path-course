@@ -1,0 +1,14 @@
+https://mmumshad.github.io/json-path-quiz/index.html#!/?questions=questions2
+
+Answers:
+$.*
+$.*.color
+$.vehicles.*.price
+$.[*].model
+$.car.wheels[*].model
+$.*.*.[*].model
+$.*.*.[*].amount
+$.*.*.[*].firstname
+$.prizes[?(@.year == 2014)].laureates[*].firstname
+
+

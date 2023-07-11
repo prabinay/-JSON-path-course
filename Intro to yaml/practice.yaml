@@ -1,0 +1,44 @@
+- name: apple
+  color: red
+  weight: 100g
+- name: orange
+  color: orange
+  weight: 90g
+- name: mango
+  color: yellow
+  weight: 150g
+
+#ex 
+
+employees:
+ - employee:
+    name: john
+    gender: male
+    age: 24
+
+
+
+#ex 12
+
+employees:
+  - name: john
+    gender: male
+    age: 24
+  - name: sarah
+    gender: female
+    age: 28
+
+#ex13
+
+employee:
+  name: john
+  gender: male
+  age: 24
+  address:
+    city: 'edison'
+    state: 'new jersey'
+    country: 'united states'
+  payslips:
+  - june: 1400
+  - july: 2400
+  - august: 3400
